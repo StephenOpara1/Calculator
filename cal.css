@@ -1,0 +1,98 @@
+#body{
+ background:#181818;
+ position: static;
+}
+
+#output{
+  width: 100%;
+  min-height: 107px;
+  background: #43464D;
+  box-sizing: border-box;
+  padding: 25px;
+  color:#FFC700;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  box-shadow:inset 50px 50px 70px black;
+  border-radius: 10px;
+  border: 1px solid;
+  opacity: 1;
+}
+
+
+#box {
+height: 500px;
+ max-width: 100%;
+  background:#181818;
+  position: relative;
+  justify-content: space-around;
+  box-shadow: 2px 2px 16px black;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 15px black;
+  opacity: 1;
+}
+
+#box > div{
+  padding: 30px;
+  background: #43464D;
+  margin: 0px;
+  width: 20px;
+  font-size: 30px;
+  height: 35px;
+  border-radius: 5px;
+  color: #FFC700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:inset 17px 17px 40px #000;
+  text-shadow: 10px 10px 30px ;
+  border: 1px solid;
+}
+
+select{
+  position: relative;
+  background: #FFC700;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 140px;
+  padding: 3px;
+  top: -30px;
+  right: 40px;
+}
+div{
+  user-select: none;
+}
+
+#output1{
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+} 
+#settings{
+  bottom: 500px;
+  left: 20%;
+  position: relative;
+  background: black;
+  height: 50px;
+  width: 50px;
+  padding: 80px;
+  border-bottom: 40px solid black;
+  border-radius: 20px;
+  display: none;
+}
+
+#button{
+  top: 10px;
+  position: relative;
+  color: #FFC700;
+  border: none;
+  background: black;
+  font-size: 50px;
+}
+
