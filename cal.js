@@ -77,4 +77,4 @@ setInterval(
       divElemet.children[17].style.pointerEvents='auto';
     };
   }
-  ,1);
+  ,1)
