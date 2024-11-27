@@ -3,7 +3,7 @@
  position: static;
 }
 
-#output(
+#output{
   width: 100%;
   min-height: 107px;
   background: #43464D;
